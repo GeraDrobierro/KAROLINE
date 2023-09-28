@@ -1,2 +1,3 @@
 ## KAROLINE
-KAROLINE
+
+# 1. Проверка небходимых библиотек для 'KAROLINE'
