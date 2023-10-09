@@ -33,7 +33,6 @@ import speech_recognition
 import os
 import sys
 import webbrowser
-import pyaudio
 from AppOpener import open
 ```
 Так, теперь, постоянно прописывать `os.system(‘say ‘ + ‘текст’)` неудобно, долго, муторно и друг к негативные прилагательные. Cоздадим функцию, с помощью которой будет говорить Каролина 
