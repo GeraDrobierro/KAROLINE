@@ -18,7 +18,8 @@ print(os.system(‘say ‘ + ‘привет, меня зовут Каролин
 
 # ROADMAP
 
-![здесь должна быть  roadmap, но разработчик ушел кушать ;)](ROADMAP.pdf)
+![здесь должна быть  roadmap, но разработчик ушел кушать](https://github.com/GeraDrobierro/KAROLINE/files/12868733/ROADMAP.pdf)
+
 
 
 
