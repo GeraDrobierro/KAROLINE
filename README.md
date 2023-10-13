@@ -47,4 +47,6 @@ def talk(words):
     print(words)
     os.system("say " + words)
 ```
-Обьяснение кода я передаю своему коллеге, 
+
+
+Обьяснение кода я передаю своему коллеге, ![proggramist](https://github.com/GeraDrobierro/KAROLINE/files/12893271/CamScanner.13.10.2023.15.04.pdf)
