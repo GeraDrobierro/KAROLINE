@@ -47,6 +47,9 @@ def talk(words):
     print(words)
     os.system("say " + words)
 ```
+Обьяснение кода я передаю своему коллеге, ![proggramist](https://github.com/GeraDrobierro/KAROLINE/files/12893271/CamScanner.13.10.2023.15.04.pdf)
+
+
 
 ## Хеш-таблица 
 Что это и зачем оно нужно ?
@@ -62,5 +65,3 @@ graph['clock'] = ['clock', 'time', 'alarm', 'покажи время', 'мину
 graph['программа'] = ['https://www.youtube.com/watch?v=SW_UCzFO7X0', 'часы']
 allMAcBookAppsEng = ['skype', 'steam', 'zoom', 'freeform', 'discord', 'google chrome', 'miro', 'tv', 'blender']
 ```
-
-Обьяснение кода я передаю своему коллеге, ![proggramist](https://github.com/GeraDrobierro/KAROLINE/files/12893271/CamScanner.13.10.2023.15.04.pdf)
