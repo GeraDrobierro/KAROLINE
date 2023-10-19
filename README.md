@@ -173,6 +173,6 @@ except ZeroDivisionError:
  
  **print('(=0:0)’)**
  
- **print( ‘(..(«)(«)’)**
+ **print( ‘(..(")(")’)**
 
-Для тех, кто хочет ознакомиться с этой констрикцией подробней нажмите на [меня](https://www.youtube.com/watch?v=qjqbek5tG3A&t=643s).
+Для тех, кто хочет ознакомиться с этой констрикцией `try-except` подробней, нажмите на [меня](https://www.youtube.com/watch?v=qjqbek5tG3A&t=643s).
