@@ -169,8 +169,10 @@ except ZeroDivisionError:
 
  **except speech_recognition.UnknownValueError:**
  
-        **print('(\(\ ‘)**
-       ** print('(=0:0)’)**
-       **print( ‘(..(«)(«)’)**
+ **print('(\(\ ‘)**
+ 
+ **print('(=0:0)’)**
+ 
+ **print( ‘(..(«)(«)’)**
 
 Для тех, кто хочет ознакомиться с этой констрикцией подробней нажмите на [меня](https://www.youtube.com/watch?v=qjqbek5tG3A&t=643s).
