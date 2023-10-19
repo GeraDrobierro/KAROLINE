@@ -160,13 +160,19 @@ except ZeroDivisionError:
         print( '(..(")(")')
 ```
 Мы передали в **try:**
+
   **query = sr.recognize_google(audio, language='ru').lower()**
+  
    **print('вы сказали:' + query)**
    
 То есть попросили Каролину, чтобы она распознавала наш голос, но в случае ошибки , попросили ее быть к ней готовой и выводили зайчика:
+
  **except speech_recognition.UnknownValueError:**
+ 
         **print('(\(\ ‘)**
+        
        ** print('(=0:0)’)**
+       
        **print( ‘(..(«)(«)’)**
 
 Для тех, кто хочет ознакомиться с этой констрикцией подробней нажмите на [меня](https://www.youtube.com/watch?v=qjqbek5tG3A&t=643s).
