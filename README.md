@@ -355,10 +355,12 @@ while True:
 Но это в будущем. 
 
 ## Примечание
-Полный код
-```
 
+Полный код
+
+```
 graph = {}
+graph['hello'] = ['hello', 'привет', 'как дела', 'hi']
 graph['интернет'] = ['web', 'map', 'инет', 'паутина']
 graph['allMAcBookAppsEng'] = ['открой skype', 'откройка steam', 'open skype', 'open steam']
 graph['Karolineworkoff'] = ['закройся', 'stop', 'exit', 'пока', 'bye', 'off', 'стоп']
@@ -367,6 +369,32 @@ graph['clock'] = ['clock', 'time', 'alarm', 'покажи время', 'мину
 graph['программа'] = ['https://www.youtube.com/watch?v=SW_UCzFO7X0', 'часы']
 allMAcBookAppsEng = ['skype', 'steam', 'zoom', 'freeform', 'discord', 'google chrome', 'miro', 'tv', 'blender']
 
+import speech_recognition
+import os
+import sys
+import webbrowser
+from AppOpener import open
+
+
+sr = speech_recognition.Recognizer()
+
+
+def talk(words):
+    print(words)
+    os.system("say " + words)
+
+def KarolineClosework():
+    return talk("Отключаюсь, приятно было поработать"), sys.exit()
+
+def KarolineHello():
+    return talk("Здравствуйте")
+
+def KarolineOpenApp():
+    return talk("Открываю " + query)
+
+
+
+while True:
     with speech_recognition.Microphone() as mic:
         print('Говорите')
         sr.pause_threshold = 1
@@ -381,7 +409,7 @@ allMAcBookAppsEng = ['skype', 'steam', 'zoom', 'freeform', 'discord', 'google ch
             print( '(..(")(")')
         if 'try' in query:
             talk('Отлично')
-        elif query == 'hello':
+        elif query in graph['hello']:
             print(KarolineHello())
         elif query in allMAcBookAppsEng or query in graph['allMAcBookAppsEng']:
             print(KarolineOpenApp())
@@ -407,5 +435,4 @@ allMAcBookAppsEng = ['skype', 'steam', 'zoom', 'freeform', 'discord', 'google ch
             a = int(input())
             b = int(input())
             print(talk(str(a+b)))
-
 ```
